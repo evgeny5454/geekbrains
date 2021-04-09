@@ -21,7 +21,7 @@
         android:layout_height="63dp"
         android:text="@string/text" 
         android:textFontWeight="45"
-         />
+        android:ems="100"/>
 
     <Button
         android:id="@+id/button"
@@ -31,7 +31,7 @@
         android:textColor="@color/cardview_dark_background"
         android:textFontWeight="56"
         android:shadowColor="@color/cardview_dark_background"
-        android:onClick="onMyButtonClick"/>
+        />
 
     <Switch
         android:id="@+id/switcH"
