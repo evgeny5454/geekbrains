@@ -30,7 +30,8 @@
         android:text="@string/butText"
         android:textColor="@color/cardview_dark_background"
         android:textFontWeight="56"
-        android:shadowColor="@color/cardview_dark_background" />
+        android:shadowColor="@color/cardview_dark_background"
+        android:onClick="onMyButtonClick"/>
 
     <Switch
         android:id="@+id/switcH"
