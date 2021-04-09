@@ -5,4 +5,8 @@
     <string name="switchText">Переключатель</string>
     <string name="checkboxText">CheckBox</string>
     <string name="togglebuttonText">ToggleButton</string>
+    <string name="textPersonName">Сюда вводим имя</string>
+    <string name="phone">Поле для ввода номера</string>
+    <string name="number">Номер</string>
+    <string name="Email">Введите адрес почты</string>
 </resources>
