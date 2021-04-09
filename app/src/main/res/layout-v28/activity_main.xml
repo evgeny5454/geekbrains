@@ -11,7 +11,7 @@
         android:id="@+id/text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hello World!" 
         android:textFontWeight="35"
         android:textColor="@color/design_default_color_error"/>
 
@@ -19,31 +19,44 @@
         android:id="@+id/design_menu_item_text"
         android:layout_width="match_parent"
         android:layout_height="63dp"
-        android:text="@string/text"
-        android:textFontWeight="35"/>
+        android:text="@string/text" 
+        android:textFontWeight="45"
+         />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="118dp"
-        android:text="@string/butText" />
+        android:text="@string/butText"
+        android:textColor="@color/cardview_dark_background"
+        android:textFontWeight="56"
+        android:shadowColor="@color/cardview_dark_background" />
 
     <Switch
         android:id="@+id/switcH"
         android:layout_width="match_parent"
         android:layout_height="147dp"
-        android:text="@string/switchText" />
-
+        android:text="@string/switchText"
+        android:textFontWeight="100"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="30sp"/>
     <CheckBox
         android:id="@+id/checkbox1"
         android:layout_width="match_parent"
         android:layout_height="121dp"
-        android:text="@string/checkboxText" />
+        android:text="@string/checkboxText"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:textAlignment="textEnd"/>
     <ToggleButton
         android:id="@+id/toggleBut"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/togglebuttonText" />
+        android:text="@string/togglebuttonText"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="55sp"/>
 
 
 </LinearLayout>
